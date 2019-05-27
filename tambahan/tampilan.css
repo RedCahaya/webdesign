@@ -1,0 +1,115 @@
+html, body, section {
+    position: relative;
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth; /*supaya halaman bisa di scroll*/
+}
+
+.peding-tambahan {
+    padding: 40px;
+}
+
+#profil {
+    padding: 100px;
+}
+
+#profil h1 {
+    color: lightseagreen;
+    margin-bottom: 0px;
+}
+
+#profil h3 {
+    color: brown;
+    margin-bottom: 20px;
+}
+
+#pengalaman {
+    padding: 100px;
+    background-color: gainsboro;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+#pengalaman h1 {
+    color: lightseagreen;
+    margin-bottom: 30px;
+}
+
+#keahlian {
+    padding: 100px;
+}
+
+#keahlian h1 {
+    color: lightseagreen;
+    margin-bottom: 30px;
+}
+
+#keahlian h5 {
+    color: brown;
+}
+
+#kontak {
+    padding: 100px;
+    background-color: gainsboro;
+}
+
+#kontak h1 {
+    color: lightseagreen;
+}
+
+.baris {
+    border: 0px solid black;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.kolom-30, .kolom-70 {
+    padding: 15px;
+    float: left;
+    border: 0px solid crimson;
+}
+
+.kolom-30 { /*lebar grid 30px*/
+    width: 30%;
+}
+
+.kolom-70 { /*lebar grid 70%*/
+    width: 70%;
+}
+
+.kontakform {
+    background-color: white;
+    padding: 15px;
+}
+
+.kontakform p {
+    margin-bottom: 15px;
+}
+
+.kontakform input, .kontakform textarea {
+    width: 100%;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.kontakform textarea {
+    height: 120px;
+}
+
+.kontakform input[type=submit] {
+    border: solid 1px lightseagreen;
+    background-color: lightseagreen;
+    color: white;
+    margin: 0px;
+    border: 0px;
+}
+
+.kontakform input[type=submit]:hover {
+    color:lightseagreen;
+    background-color: brown;
+    transition-duration: 0.5s;
+}
